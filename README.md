@@ -2,14 +2,14 @@
 
 ## Descrizione
 
-L'applicazione é un semplice gioco Quiz che ho realizzato su ricchiesta.
+L'applicazione é un semplice gioco Quiz che ho realizzato su richiesta.
 
 ### Features
 
-    Build with javasccript
-    json
-    html
-    css
-    bootstrap
+   Realizzato con javaScript
+    Json
+    HTML
+    CSS
+    Bootstrap
 
 
