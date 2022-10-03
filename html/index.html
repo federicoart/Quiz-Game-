@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://bootswatch.com/5/quartz/bootstrap.min.css" />
+  <link rel="stylesheet" href="./../css/style.css" />
+
+  <title>Document</title>
+</head>
+
+<body>
+  <!-- contenitore -->
+  <div class="container text-center mt-5">
+    <!-- Titolo -->
+    <h1 class="titolo display-2 card bg-black p-2">Sono Carlo Conti</h1>
+
+    <div class="row">
+      <div class="card col-12 bg-info m-0 p-0">
+        <!-- bottone istruzione -->
+        <button id="istruzioni" class="btn btn-outline-dark" data-toggle="dropdown">
+          ISTRUZIONI
+        </button>
+        <!-- Contenuto info -->
+        <div id="info" class="nascondi">
+          <div class="container text-dark">
+            <h2>Regolamento</h2>
+            <p>
+              Per vincere il montepremi il concorrente deve rispondere
+              correttamente a 10 domande con quattro opzioni di risposta (A,
+              B, C, D), di valore e difficoltà crescente e con un limite di
+              tempo di 20 secondi. Se dà una risposta sbagliata viene
+              eliminato. Alla sua vittoria riceverá un premio in denaro.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- ********** Counter tempo ************* -->
+      <div id="tempo" class="nascondi card text-success col-12 mb-1 mt-1">
+        <h1 id="counter" class="text-center display-1 fw-bold"></h1>
+      </div>
+      <!-- ********** container Start ************* -->
+      <div id="start" class="card mt-2 shadow col-12">
+
+        <div class="card-header d-flex justify-content-center">
+
+          <div class="row">
+
+            <div class="container col-sm-12 col-lg-5 mt-3">
+              <!-- ********** Frase ************* -->
+              <p class="display-6" id="frase">
+                Hai sicuramente sentito parlare di me, ti sfido a un quiz.
+              </p>
+
+              <div class="container p-3">
+                <h2 id="textiniziale">Sei pronto, giovane?</h2>
+                <div class="container-fluid mt-2">
+                  <!-- ********** Container risposte ************* -->
+                  <div id="contenitoreD" class="card nascondi col-sm-12 col-12">
+                    <!-- ********** domanda ************* -->
+                    <h2 id="domanda" class="m-4 text-center">Domanda</h2>
+                    <!-- ********** container bottoni ************* -->
+                    <div id="risposte" class="card-content m-3 text-center">
+                      <!-- ********** bottoni************* -->
+                      <button class="btn">testo</button>
+                      <button class="btn">testo</button>
+                      <button class="btn">testo</button>
+                      <button class="btn">testo</button>
+                    </div>
+                    <button id="next-btn" class="btn nascondi">Next</button>
+                  </div>
+                  <!-- **********bottone iniizia  ************* -->
+                  <button id="inizia" class="inizia btn btn-primary btn-lg fw-bold mt-3 p-3">
+                    INIZIA
+                  </button>
+                  <!-- ********** bottone restart ************* -->
+                  <button id="restart" class="btn btn-primary btn-lg fw-bold mt-3 p-3 nascondi">
+                    Riprova
+                  </button>
+                </div>
+              </div>
+            </div>
+            <!-- ********** Container immagine ************* -->
+            <div class="container col-md-5 col-sm-12">
+              <img src="./62f690bf3d254446829a47edc58f58a8.jpg" alt="" class="col-md-5 col-sm-4 w-auto img-fluid" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="main mb-3">
+      <!-- *********** -->
+
+      <!-- ********** -->
+    </div>
+  </div>
+  <!-- script -->
+  <script src="./../js/main.js"></script>
+  <script src="./../js/selectAnswer.js"></script>
+  <script src="./../js/body.js"></script>
+  <script src="./../js/btn.js"></script>
+  <script src="./../js/tempo.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,11 @@
+.nascondi{
+  display: none;
+}
+.mostra{
+  display: inline;
+}
+:root{
+  --hue-neutral:600;
+  --hue-wrong:0;
+  --hue-correct:132;
+}

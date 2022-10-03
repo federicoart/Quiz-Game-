@@ -1,0 +1,212 @@
+[
+  {
+    "domanda": "Quanti fusi orari ci sono in Russia?",
+    "risposte": [
+      {
+        "testo": "2",
+        "corretta": false
+      },
+      {
+        "testo": "11",
+        "corretta": true
+      },
+      {
+        "testo": "6",
+        "corretta": false
+      },
+      {
+        "testo": "9",
+        "corretta": false
+      }
+    ]
+  },
+  {
+    "domanda": "Qual è il nome gergale di New York City, usato dai suoi abitanti?",
+    "risposte": [
+      {
+        "testo": "Gotham",
+        "corretta": true
+      },
+      {
+        "testo": "The Windy City",
+        "corretta": false
+      },
+      {
+        "testo": "Blue Valley",
+        "corretta": false
+      },
+      {
+        "testo": "Keystone City",
+        "corretta": false
+      }
+    ]
+  },
+  {
+    "domanda": "La serie di libri più venduti del XXI secolo?",
+    "risposte": [
+      {
+        "testo": "Il Codice Da Vinci",
+        "corretta": false
+      },
+      {
+        "testo": "50 sfumature di grigio",
+        "corretta": false
+      },
+      {
+        "testo": "Harry Potter",
+        "corretta": true
+      },
+      {
+        "testo": " L’amica geniale",
+        "corretta": false
+      }
+    ]
+  },
+  {
+    "domanda": "Quale lingua ha più parole (secondo le voci del dizionario)?",
+    "risposte": [
+      {
+        "testo": "Francese",
+        "corretta": false
+      },
+      {
+        "testo": "Inglese",
+        "corretta": true
+      },
+      {
+        "testo": "Giapponese",
+        "corretta": false
+      },
+      {
+        "testo": "Italiano",
+        "corretta": false
+      }
+    ]
+  },
+  {
+    "domanda": "Chi ha inventato il World Wide Web ?",
+    "risposte": [
+      {
+        "testo": "Nicolas Hayek",
+        "corretta": false
+      },
+      {
+        "testo": "Tim Berners-Lee",
+        "corretta": true
+      },
+      {
+        "testo": "Alan Kay",
+        "corretta": false
+      },
+      {
+        "testo": "Neil Papworth",
+        "corretta": false
+      }
+    ]
+  },
+  {
+    "domanda": "Quanti tasti ha un pianoforte classico?",
+    "risposte": [
+      {
+        "testo": "100",
+        "corretta": false
+      },
+      {
+        "testo": "90",
+        "corretta": false
+      },
+      {
+        "testo": "206",
+        "corretta": false
+      },
+      {
+        "testo": "88",
+        "corretta": true
+      }
+    ]
+  },
+  {
+    "domanda": "Nome del primo film della Disney?",
+    "risposte": [
+      {
+        "testo": "Pinocchio",
+        "corretta": false
+      },
+      {
+        "testo": "Cenerentola",
+        "corretta": false
+      },
+      {
+        "testo": "Biancaneve",
+        "corretta": true
+      },
+      {
+        "testo": "Dumbo",
+        "corretta": false
+      }
+    ]
+  },
+  {
+    "domanda": "Che strumento suonava George Harrison?",
+    "risposte": [
+      {
+        "testo": "Sitar",
+        "corretta": true
+      },
+      {
+        "testo": "Chitarra",
+        "corretta": false
+      },
+      {
+        "testo": "Xilofono",
+        "corretta": false
+      },
+      {
+        "testo": "Tuba",
+        "corretta": false
+      }
+    ]
+  },
+  {
+    "domanda": "Qual è il nome del Martello di Thor?",
+    "risposte": [
+      {
+        "testo": "Ratatoskr",
+        "corretta": false
+      },
+      {
+        "testo": "Mjolnir",
+        "corretta": true
+      },
+      {
+        "testo": "Freyr",
+        "corretta": false
+      },
+      {
+        "testo": "Jormungandr",
+        "corretta": false
+      }
+    ]
+  },
+  {
+    "domanda": "Qual è la città italiana dei “due mari”?",
+    "risposte": [
+      {
+        "testo": "Positano",
+        "corretta": false
+      },
+      {
+        "testo": "Cagliari",
+        "corretta": false
+      },
+      {
+        "testo": "Sperlonga",
+        "corretta": false
+      },
+      {
+        "testo": "Taranto",
+        "corretta": true
+      }
+    ]
+  }
+]
